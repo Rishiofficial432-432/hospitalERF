@@ -1,0 +1,5 @@
+{
+  "name": "Hospital ERP - Patient Management",
+  "description": "A modern, responsive Hospital ERP web application that focuses on patient management with QR code functionality. This is a frontend-only MVP that simulates backend functionality using mock data and localStorage.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hospital ERP</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Modern, clean scrollbar styling */
+      ::-webkit-scrollbar {
+        width: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #f1f5f9; /* bg-slate-100 */
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #06b6d4; /* cyan-500 */
+        border-radius: 3px;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.4",
+    "react-hook-form": "https://aistudiocdn.com/react-hook-form@^7.64.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-slate-100 flex justify-center">
+    <div class="w-full max-w-md h-screen bg-slate-100 shadow-2xl shadow-gray-400/20">
+        <div id="root" class="h-full"></div>
+    </div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
